@@ -1,0 +1,52 @@
+/* Identificador seletor {
+    propriedades : valor;
+} */
+
+.main_blog {
+    max-width: calc(1000px - 80px);
+    width: calc(90% - 80px);
+    background: #ccc;
+    padding: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; /* Quebrar o conteúdo e colocar um a baíxo do outro */
+    justify-content: space-between; /* Descontar os espaçamentos */
+}
+
+.main_blog > header {
+    flex-basis: 100%;
+}
+
+.main_blog article {
+    flex-basis: calc(50% - 40px - 20px);
+    padding: 10px 20px;
+    background: #333;
+    color: #FFF;
+    margin: 20px 0;
+}
+
+.main_blog article p {
+    font-size: 1.1em;
+}
+
+.title_medium_lightgray {
+    color: #ccc !important;
+    font-size: 1.4em;
+    font-weight: bold;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 4px;
+}
+
+@media (max-width: 40em){
+    .main_blog article {
+        flex-basis: calc(100% - 40px);
+    }
+}
+
+/* 
+    1) Unidades de medidas fixas 
+        Pixel 
+    2) Fluída 
+        #) em
+        #) percentagem
+*/
