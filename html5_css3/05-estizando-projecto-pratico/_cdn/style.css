@@ -242,7 +242,7 @@
 .main_course_content article {
     flex-basis: calc(50% - 40px);
     margin: 20px 0;
-    background: #ebebeb;
+    background: #f7f7f7;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -378,7 +378,7 @@
 
 .main_school_list {
     width: 100%;
-    background: #ebebeb;
+    background: #f7f7f7;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -421,4 +421,176 @@
 .main_school_address h2 {
     font-size: 1.5em;
     margin-bottom: 5px;
+}
+
+
+/* Main Tutor */
+.main_tutor {
+    width: 100%;
+    background-color: #2d3142;
+}
+
+.main_tutor_content{
+    max-width: calc(1300px - 80px);
+    padding: 40px;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+}
+
+.main_tutor_content>header h1{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.main_tutor_content_img {
+    margin: 20px auto;
+}
+
+.main_tutor_content_img img {
+    max-width: 200px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    padding: 3px;
+    background-color: #FFF;
+}
+
+.main_tutor_content_history h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.main_tutor_content_history p {
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.main_tutor_social_network {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #D36833;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main_tutor_social_network>header {
+    flex-basis: 100%;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.main_tutor_social_network > article {
+    flex-basis: 24%;
+}
+
+.main_tutor_social_network>article h3 {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.main_tutor_social_network>article a {
+    background-color: #FFF;
+    color: #D36833;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.main_tutor_social_network>article a:hover {
+    background-color: #2d3142;
+    color: #FFF;
+}
+
+
+/* OPTIN FOOTER */
+.main_optin_footer {
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+.main_optin_footer_content {
+    max-width: 1300px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.main_optin_footer_content h1 {
+    font-size: 1.3em;
+    margin-bottom: 40px;
+}
+
+.main_optin_footer_content .btn {
+    background-color: #D36833;
+    padding: 10px 20px;
+    color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-size: 1.2em;
+}
+
+/* Footer */
+.main_footer {
+    max-width: 1300px;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: #333;
+}
+
+.main_footer>header {
+    flex-basis: 100%;
+}
+
+.main_footer>header h1 {
+    font-size: 1.4em;
+    margin-bottom: 40px;
+}
+
+.main_footer_our_pages, 
+.main_footer_links {
+    flex-basis: 25%;
+}
+
+.main_footer_about {
+    flex-basis: 50%;
+}
+
+.main_footer>article h2 {
+    margin-bottom: 20px;
+}
+
+.main_footer>article ul li {
+    list-style: none;
+    margin: 5px 0;
+}
+
+.main_footer>article ul li a {
+    color: #333;
+}
+
+.main_footer>article ul li a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+
+.main_footer_rights {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f7f7f7;
+    border-top: 1px solid #ebebeb;
+    font-size: 0.9em;
+    color: #666;
+    font-weight: 3  00;
 }
